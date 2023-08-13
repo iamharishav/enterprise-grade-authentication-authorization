@@ -1,0 +1,19 @@
+{
+  "name": "enterprise-authentication-authorization",
+  "version": "1.0.0",
+  "description": "Enterprise level authentication and authorization using AWS Cognito",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamharishav/enterprise-grade-authentication-authorization.git"
+  },
+  "author": "iamharishav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamharishav/enterprise-grade-authentication-authorization/issues"
+  },
+  "homepage": "https://github.com/iamharishav/enterprise-grade-authentication-authorization#readme"
+}
