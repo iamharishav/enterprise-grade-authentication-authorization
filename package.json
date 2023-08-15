@@ -4,7 +4,7 @@
   "description": "Enterprise level authentication and authorization using AWS Cognito",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/iamharishav/enterprise-grade-authentication-authorization/issues"
   },
-  "homepage": "https://github.com/iamharishav/enterprise-grade-authentication-authorization#readme"
+  "homepage": "https://github.com/iamharishav/enterprise-grade-authentication-authorization#readme",
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "^3.391.0",
+    "aws-sdk": "^2.1436.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
 }
